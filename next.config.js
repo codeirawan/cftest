@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Enable static export
-  distDir: "out", // Output directory for the static export
+  output: 'export', // Enable static export
+  distDir: 'out',   // Optional: Specify the output directory
 };
 
 module.exports = nextConfig;
