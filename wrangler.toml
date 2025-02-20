@@ -1,5 +1,7 @@
 [build]
-command = "npm install && npm run build"
+command = "npm run build"
+pages_build_output_dir = ".next"
 
 [site]
-pages_build_output_dir = "./out"
+bucket = ".next"
+functions = "functions"
